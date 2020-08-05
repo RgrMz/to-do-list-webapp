@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MyInfo from './MyInfo';  //Done for learning purposes 
+import Header from './components/Header';
+import Maincontent from './components/Maincontent';
 
 function App() {
   return (
     <div className="App">
-      <MyInfo />
+      <Header />
+      <Maincontent/>
     </div>
   );
 }
