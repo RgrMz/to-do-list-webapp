@@ -1,0 +1,22 @@
+.navbar{
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    width:500px;
+    display: inline-block;
+
+}
+
+.nav-button{
+    font-family: 'Roboto Slab';
+    margin-right: 20px ;
+    margin-left: 0px;
+    padding: 10px 10px 10px 10px;
+    display: inline;
+    text-align: center;
+    background-color: rgb(223, 219, 219);
+}
+
+.b1{
+    left: auto;
+}

@@ -3,12 +3,9 @@ import React from 'react';
 function Navbar() {
     return (
         <div class="navbar">
-            <div className="menu-icon"></div>
-            <div className="menu-icon"></div>
-            <div className="menu-icon"></div>
-            <button className="nav-button" type="button">Add new task</button>
-            <button className="nav-button" type="button">Delete task</button>
-            <button classNamea="nav-button" type="button">Dark/Light mode</button>
+            <button className="nav-button" id="b1" type="button">Add new task</button>
+            <button className="nav-button" id="b2" type="button">Delete task</button>
+            <button className="nav-button" id="b3" type="button">Dark/Light mode</button>
         </div>
     )
 }

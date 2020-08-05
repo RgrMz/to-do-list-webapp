@@ -1,0 +1,12 @@
+.header{
+    border-style: double;
+    border-width: 10 px;
+    background-color: rgb(29, 25, 26);
+    text-align: center;
+}
+
+#header{
+    font-size: 1.25em;
+    font-family: 'Roboto Slab';
+    color: whitesmoke;
+}
