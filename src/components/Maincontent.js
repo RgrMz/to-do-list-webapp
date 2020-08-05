@@ -4,13 +4,10 @@ import Task from './Task'
 function Maincontent() {
     return (
         <div id="main-container">
-            <ul id="list-container">
-                <li class="list-task"><Task/></li>
-                <li class="list-task"><Task/></li>
-                <li class="list-task"><Task/></li>
-                <li class="list-task"><Task/></li>
-
-            </ul>
+            <Task/>
+            <Task/>
+            <Task/>
+            <Task/>
         </div>
     )
 }
