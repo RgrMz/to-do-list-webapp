@@ -5,18 +5,18 @@ import Navbar from './Navbar';
 class Header extends React.Component {
     
     constructor(){
-
         super();
-        
     }
 
     render() {    
         return(
-            <div className = "header"> 
+            <div className = "header" style={{
+               
+            }}> 
                 <header id="header">
                     <h1>To do list web application! - Have a control of your routine tasks</h1>
                 </header>
-                <Navbar/>
+                <Navbar addTask={this.props.addTask} deleteTask={this.props.deleteTask}/>
                 <br/>
             </div>
         );

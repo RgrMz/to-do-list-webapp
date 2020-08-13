@@ -1,22 +1,12 @@
 import React from 'react'
 import Task from './Task'
 
-class Maincontent extends React.Component {
-
-    constructor() {
-
-        super();
-
-    }
-
-    render() {
+function Maincontent (props) {
         return (
             <div id="main-container">
-                <Task/>
+                <Task taskItems={props.taskItems} />
             </div>
         );
     }
-
-}
 
 export default Maincontent;
