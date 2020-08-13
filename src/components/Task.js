@@ -1,14 +1,21 @@
 import React from 'react';
+import TaskItem from './TaskItem';
 
-function Task() {
-    return(
-        <div className="task-container">
-            <div class="double">
-                <input type="checkbox" class="task"/>
+class Task extends React.Component {
+
+    constructor() {
+        super();
+    }
+    
+    render() {
+        return(
+            <div className="task-container">
+                <TaskItem />
+                <TaskItem />
+                <TaskItem />
             </div>
-            <p className="task-text">Waiting for task description...</p><br></br>
-        </div>
-    );
+        );
+    }
 }
 
 export default Task;
