@@ -10,13 +10,11 @@ class Header extends React.Component {
 
     render() {    
         return(
-            <div className = "header" style={{
-               
-            }}> 
+            <div className = "header">
                 <header id="header">
                     <h1>To do list web application! - Have a control of your routine tasks</h1>
                 </header>
-                <Navbar addTask={this.props.addTask} deleteTask={this.props.deleteTask}/>
+                <Navbar addTask={this.props.addTask} deleteTask={this.props.deleteTask} deleteAllTasks={this.props.deleteAllTasks} />
                 <br/>
             </div>
         );

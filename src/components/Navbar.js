@@ -14,7 +14,8 @@ class Navbar extends  React.Component {
                     onClick={() => this.props.addTask()}>Add new task</button>
                     <button className="nav-button" id="b2" type="button"
                     onClick={() => this.props.deleteTask()}>Delete task</button>
-                    <button className="nav-button" id="b3" type="button">Delete all tasks</button>
+                    <button className="nav-button" id="b3" type="button"
+                    onclick={this.props.deleteAllTasks}>Delete all tasks</button>
                 </div>
             </div>
         );
